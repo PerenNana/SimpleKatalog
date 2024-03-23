@@ -1,0 +1,82 @@
+<div class="container">
+    <h2 style="color: brown; font-size: 30px;" *ngIf="songs.length > 0"> My {{title}} is now available </h2>
+
+    <div class="show">
+      <button class="btn btn-primary" (click) = "toggleIsNewBadge()">
+        <span class="material-icons">
+          visibility
+        </span>
+        show favorites 
+      </button>
+    </div>
+    <br>
+
+    <div class="seek">
+      <label for="seekid" style="font-size: 20px; color: red;">
+        <span class="material-icons">
+          search
+        </span>
+      </label>
+
+      <input 
+        type="text"
+        id="seekid"
+        style="font-size: 25px; border-radius: 5px;"
+        placeholder="Search"
+        [(ngModel)]="songFilter"
+      >
+
+    </div>
+    <br>
+
+    <div class="my-2">
+      <label for="msg">
+        Add comment:
+      </label>
+
+      <input 
+        class="i"
+        type="text"
+        id="msg"
+        [(ngModel)]="comment">
+    </div>
+    <br>
+    
+    <div class="col mb-4" style="width: 25%; display: flex; flex-direction: column;" *ngFor="let song of filteredSongs">
+        <img class="card-img-top" [src]="song.imageUrl" [title]="song.artist" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-title">{{song.artist}}</h2>
+          <p class="card-text"><i><b>{{comment | uppercase}}</b></i></p>
+          <label class="fvrt" *ngIf="showBadge" style="color: red;"> 
+            <span class="material-icons">
+              favorite
+            </span>
+            Favorite
+            <input type="checkbox">
+          </label>
+        </div>
+        <ul class="list-group list-group-flush" style="color: white;">
+          <li class="list-group-item">Title: {{song.title}}</li>
+          <li class="list-group-item">Year: {{song.year}}</li>
+          <li class="list-group-item">Genre: {{song.genre}}</li>
+          <li class="list-group-item">Release: 
+            {{date_actual | date : 'shortDate'}}</li>
+        </ul>
+        <div class="card-body">
+          
+          <a [href]="song.link" class="card-link" target="_blank" style="color: rgb(237, 148, 14);">
+            <span class="material-icons">
+              live_tv
+              </span>
+            click to watch
+          </a>
+        </div>
+        <app-star-rating></app-star-rating>
+       <br> 
+    </div>
+</div>
+
+
+
+
+

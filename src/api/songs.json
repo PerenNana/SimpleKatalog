@@ -1,0 +1,92 @@
+[
+    {
+        "songId": 1,
+        "artist": "Joeboy",
+        "title": "Lonely",
+        "year": 2021,
+        "genre": "Afro-beats",
+        "link": "https://www.youtube.com/watch?v=WvWFVW4lRVU",
+        "imageUrl": "assets/img/joeboy2.jpg"
+    
+    },
+    {
+        "songId": 2,
+        "artist": "Asake",
+        "title": "Lonely At the Top",
+        "year": 2023,
+        "genre": "Afro-beats",
+        "link": "https://www.youtube.com/watch?v=bbVZo4Yw7pI",
+        "imageUrl": "assets/img/asake2.jpg"
+         
+    },
+    {
+        "songId": 3,
+        "artist": "Ckay",
+        "title": "Emiliana",
+        "year": 2022,
+        "genre": "Afro-beats",
+        "link": "https://www.youtube.com/watch?v=Ypr5QN7Xn_M",
+        "imageUrl": "assets/img/ckay2.jpg"
+        
+    },
+    {
+        "songId": 4,
+        "artist": "Tems",
+        "title": "Free Mind",
+        "year": 2022,
+        "genre": "Afro-beats",
+        "link": "https://www.youtube.com/watch?v=1JltlSJH5bY",
+        "imageUrl": "assets/img/tems.jpg"
+        
+    },
+    {
+        "songId": 5,
+        "artist": "Burna Boy",
+        "title": "Common Person",
+        "year": 2023,
+        "genre": "Afro-beats",
+        "link": "https://www.youtube.com/watch?v=8560CAdA0Ys",
+        "imageUrl": "assets/img/burna.jpg" 
+        
+    },
+    {
+        "songId": 6,
+        "artist": "Patoranking",
+        "title": "Babylon",
+        "year": 2023,
+        "genre": "Afro-beats",
+        "link": "https://www.youtube.com/watch?v=7b0ETFcWrgY",
+        "imageUrl": "assets/img/patoranking.jpg" 
+        
+    },
+    {
+        "songId": 7,
+        "artist": "Ghetto Boy",
+        "title": "Gentle O",
+        "year": 2021,
+        "genre": "Afro-beats",
+        "link": "https://www.youtube.com/watch?v=HsEDDMrHvD0",
+        "imageUrl": "assets/img/ghetto_boy.jpg"  
+        
+    },
+    {
+        "songId": 8,
+        "artist": "Mr Eazi",
+        "title": "Tchop Time, No Friend",
+        "year": 2024,
+        "genre": "Afro-beats",
+        "link": "https://www.youtube.com/watch?v=YkJSrFO28No",
+        "imageUrl": "assets/img/mr_eazi.jpg"   
+        
+    },
+    {
+        "songId": 9,
+        "artist": "Wizkid",
+        "title": "Diamonds",
+        "year": 2024,
+        "genre": "Afro-beats",
+        "link": "https://www.youtube.com/watch?v=utmQRZSs6SE",
+        "imageUrl": "assets/img/wizkid2.jpeg"  
+        
+    }
+]
